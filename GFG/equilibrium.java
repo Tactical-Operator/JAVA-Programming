@@ -24,6 +24,7 @@ class equilibrium {
                 break;
                 
             }
+            leftsum+=arr[i];
         }
         if(true){
             System.out.println(-1);

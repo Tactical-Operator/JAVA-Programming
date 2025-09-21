@@ -27,7 +27,7 @@ class tworepeated
             }
         }
         for(int x:result){
-            System.out.print(x);
+            System.out.print(x+"");
         }
     }
 }
