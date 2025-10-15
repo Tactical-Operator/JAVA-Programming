@@ -9,7 +9,7 @@ class driver_kadane_but_small
     public static void main(String[] args) throws Exception
     {
        // Create a File object for input.txt
-        File file = new File("input.txt");
+        File file = new File("input_for_small_kadane.txt");
 
         // Scanner will now read from the file instead of console
         Scanner sc = new Scanner(file);
