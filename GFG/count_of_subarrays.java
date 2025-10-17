@@ -36,7 +36,7 @@ class count_of_subarrays
             arr[i]=sc.nextInt();
         }
         int K=sc.nextInt();
-        // Not yet completed , Complete it tomorrow i.e 17th October 2025
+        // Not yet completed , Complete it tomorrow i.e 18th October 2025
 
         
 
