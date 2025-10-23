@@ -11,6 +11,7 @@
 // Input: arr[] = [2, 1, 5, 3, 1, 0, 4]
 // Output: 9
 // Explanation: Total water trapped = 0 + 1 + 0 + 1 + 3 + 4 + 0 = 9 units.
+// Not yet completed
 
 import java.util.*;
 
