@@ -25,6 +25,8 @@ class maximizwnumberof1 {
         //     }
         // }
         // System.out.println(maxlength);
+        //
+        
 
         int l=0,r=0,zeroes=0;
         while(r<n){
