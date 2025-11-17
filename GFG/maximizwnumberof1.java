@@ -43,6 +43,7 @@ class maximizwnumberof1 {
             if(zeroes<=k){
                 lengthofsubarray=r-l+1;
                 maxlength=Math.max(maxlength, lengthofsubarray);
+                // maxlength
             }r++;
             
         }
