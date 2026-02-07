@@ -3,7 +3,7 @@ class twosum
 {
     public static void main(String[] args)
     {
-       int[] arr={15,7,2,11,14,12};
+       int[] arr={15,7,2,11,14,12,4,5,8,1};
        int target=9;
        HashMap<Integer,Integer> map=new HashMap<>();
 

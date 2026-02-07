@@ -1,7 +1,4 @@
 // find the subarray from an array which has the maximum sum using bRUte FoRce and KArdane's Algorithm
-
-
-
 import java.util.*;
 
 class kadane {
