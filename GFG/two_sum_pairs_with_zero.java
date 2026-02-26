@@ -18,8 +18,23 @@ class two_sum_pairs_with_zero
             result.add(pair);
 
             int leftvalue=arr[left];
-            int rigthvalue=arr[right];
+            int rightvalue=arr[right];
+
+            while(left<right && arr[left]==leftvalue){
+               left++;
+            }
+            while(left<right && arr[right]==rightvalue){
+                right++;
+            }
+
+         }
+         else if(sum<0){
+            left++;
+         }
+         else{
+            right--;
          }
        }
+       System.out.println(result);
     }
 }
