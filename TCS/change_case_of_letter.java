@@ -6,19 +6,19 @@ class change_case_of_letter {
 
         String s = sc.nextLine();
         StringBuilder sb = new StringBuilder(s);
-        for (int i = 0; i < s.length(); i++) {
 
-            char ch = s.charAt(i);
-            // if (Character.isUpperCase(ch)) {
-            //     sb.setCharAt(i, Character.toLowerCase(ch));
-            // }
-            if(Character.isUpperCase(ch)){
-                ch=Character.toLowerCase(ch);
-                s=s.replace(s.charAt(i),ch);
+        for (int i = 0; i < sb.length(); i++) {
+
+            char ch = sb.charAt(i);
+
+            if (Character.isUpperCase(ch)) {
+                sb.setCharAt(i, Character.toLowerCase(ch));
             }
-
+            else if (Character.isLowerCase(ch)) {
+                sb.setCharAt(i, Character.toUpperCase(ch));
+            }
         }
-        
-        System.out.println(s);
+
+        System.out.println(sb.toString());
     }
 }
