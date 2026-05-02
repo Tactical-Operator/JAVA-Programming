@@ -28,3 +28,26 @@
 // Input: s = "A", numRows = 1
 // Output: "A"
  
+import java.util.*;
+class Solution{
+    public String convert(String s,int numRows){
+        if(numRows==1){
+            return s;
+        }
+      
+    }
+}
+
+class zigzag_conversion{
+    public static void main(String[] args){
+
+        Scanner sc=new Scanner(System.in);
+        String s=sc.nextLine();
+        int numRows=sc.nextInt();
+
+        Solution obj=new Solution();
+        System.out.println(obj.convert(s,numRows));
+
+    }
+}
+
