@@ -34,6 +34,40 @@ class Solution{
         if(numRows==1){
             return s;
         }
+
+        String[] rows=new String[numRows];
+
+        for(int i=0;i<numRows;i++){
+            rows[i]="";
+        }
+
+        int currentRow=0;
+        boolean goingDown=true;
+
+        for(char c:s.toCharArray()){
+            rows[currentRow]+=c;
+
+            if (currentRow==numRows-1) {
+                goingDown=false;
+                
+            }
+            else if(currentRow==0){
+                goingDown=true;
+            }
+            if(goingDown){
+                currentRow++;
+            }
+            else{
+                currentRow--;
+            }
+        }
+        String result="";
+
+        for(String row:rows){
+            result+=row;
+        }
+
+        return result;
       
     }
 }
